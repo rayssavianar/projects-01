@@ -49,19 +49,12 @@ header .navigation ul li:hover{
 
 /* Imagem 1 */
 
-/* main{
+main{
     display: flex;
     flex-direction: column;
     border: 2px solid blue;
-    background-color: ;
 }
 
-main{
-    
-}
 main img{
     width: 50%;
-
-
-
-} */
+}
