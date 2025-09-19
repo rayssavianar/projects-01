@@ -12,7 +12,8 @@ ul{
   list-style: none;
 }
 
-h1{
-    font-family: '';
+h1, h2, p, li{
+    font-family: var(--text-font);
+    color: var(--white);
 }
 

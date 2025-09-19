@@ -36,7 +36,6 @@ header .navigation ul{
 header .navigation ul li{
     display: flex;
     margin-right: 4%;
-    font-family: var(--text-font);
     font-size: 10px;
     color: white;
 }
@@ -50,11 +49,27 @@ header .navigation ul li:hover{
 /* Imagem 1 */
 
 main{
-    display: flex;
-    flex-direction: column;
     border: 2px solid blue;
+    background-color: var(--main);
 }
 
-main img{
-    width: 50%;
+main .content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid green;
+
+}
+
+main .content1 img{
+    margin-top: 12px;
+    width: 45%;
+}
+
+main .content1 h1{
+    text-align: center;
+    margin-top: 26px;
+    font-size: 18px;
+
 }
