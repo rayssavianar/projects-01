@@ -12,8 +12,13 @@ ul{
   list-style: none;
 }
 
-h1, h2, p, li{
+h1, a{
     font-family: var(--text-font);
-    color: var(--white);
+    color: var(--neutral);
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+  color: var(--neutral);
 }
 

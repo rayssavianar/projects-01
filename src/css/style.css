@@ -20,27 +20,31 @@ header img{
 /* Navegação */
 
 
-header .navigation{
+header nav{
     width: 100%;
     align-content: center;
     justify-content: flex-end;
 }
 
-header .navigation ul{
+header nav ul{
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding: 5px;
 }
 
-header .navigation ul li{
+header nav ul li a{
+    color: white;
+}
+
+header nav ul li{
     display: flex;
     margin-right: 4%;
     font-size: 10px;
     color: white;
 }
 
-header .navigation ul li:hover{
+header nav ul li a:hover{
     cursor: pointer;
     font-weight: 700;
     text-decoration: underline;
@@ -50,10 +54,10 @@ header .navigation ul li:hover{
 
 main{
     border: 2px solid blue;
-    background-color: var(--main);
+    background-color: var(--hero);
 }
 
-main .content1{
+main .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,14 +66,24 @@ main .content1{
 
 }
 
-main .content1 img{
+main .hero img{
     margin-top: 12px;
     width: 45%;
 }
 
-main .content1 h1{
+main .hero h1{
     text-align: center;
+    width: 40%;
     margin-top: 26px;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 1.5;
+}
 
+main .hero p{
+    text-align: center; 
+    width: 40%;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
 }
