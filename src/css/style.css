@@ -53,21 +53,21 @@ header nav ul li a:hover{
 /* Imagem 1 */
 
 main{
-    border: 2px solid blue;
     background-color: var(--hero);
+    height: 48vh;
 }
 
 main .hero{
     display: flex;
     flex-direction: column;
+    position: relative;
+    background-color: ;
     align-items: center;
     width: 100%;
-    border: 2px solid green;
-
 }
 
 main .hero img{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 45%;
 }
 
@@ -103,3 +103,12 @@ main .hero .getstarted{
 main .hero .getstarted:hover{
     background: var(--cal-to-actions);
 }
+
+
+main .bg-wave img{
+    margin-top: 40%;
+    position: absolute;
+    width: 100%;
+}
+
+
