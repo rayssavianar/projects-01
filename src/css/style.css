@@ -57,21 +57,20 @@ main{
     height: 48vh;
 }
 
-main .hero{
+main .intro{
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: ;
     align-items: center;
     width: 100%;
 }
 
-main .hero img{
+main .intro img{
     margin-top: 30px;
     width: 45%;
 }
 
-main .hero h1{
+main .intro h1{
     text-align: center;
     width: 40%;
     margin-top: 26px;
@@ -79,7 +78,7 @@ main .hero h1{
     line-height: 1.5;
 }
 
-main .hero p{
+main .intro p{
     text-align: center; 
     width: 40%;
     margin-top: 20px;
@@ -88,7 +87,7 @@ main .hero p{
     line-height: 1.5;
 }
 
-main .hero .getstarted{
+main .intro .getstarted{
     text-align: center;
     font-size: 13px;
     margin-top: 25px;
@@ -100,15 +99,15 @@ main .hero .getstarted{
     transition: 0.5s;
 }
 
-main .hero .getstarted:hover{
+main .intro .getstarted:hover{
     background: var(--cal-to-actions);
 }
-
 
 main .bg-wave img{
     margin-top: 40%;
     position: absolute;
     width: 100%;
+    background-color: var(--intro);
 }
 
 
