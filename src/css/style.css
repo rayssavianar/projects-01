@@ -1,18 +1,18 @@
 body{
     width: 100%;
     height: 100vh;
+    background-color: var(--header);
 }
 
 /* logo */
 
 header{
-    display: flex;
     width: 100%;
-    background-color: var(--header);
+    display: flex;
 }
 
 header img{
-    width: 7%;
+    width: 10dvh;
     margin: 20px;
     margin-left: 35px;
 }
@@ -50,65 +50,87 @@ header nav ul li a:hover{
     text-decoration: underline;
 }
 
-/* Imagem 1 */
-
-main{
-    background-color: var(--hero);
-    height: 48vh;
-}
+/* Main*/
 
 main .hero{
+    margin-top: 3%;
+    background: url(../images/bg-wave-desktop.svg) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+main .hero div{
     display: flex;
     flex-direction: column;
-    position: relative;
-    background-color: ;
     align-items: center;
     width: 100%;
 }
 
-main .hero img{
-    margin-top: 30px;
-    width: 45%;
+main .hero div img{
+    /* margin-top: 30px; */
+    width: 35%;
 }
 
-main .hero h1{
+main .hero div h1{
     text-align: center;
-    width: 40%;
+    width: 30%;
     margin-top: 26px;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
-main .hero p{
+main .hero div p{
     text-align: center; 
-    width: 40%;
-    margin-top: 20px;
-    font-size: 13px;
+    width: 25%;
+    margin-top: 1%;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
 }
 
-main .hero .getstarted{
+main .hero div .getstarted{
     text-align: center;
     font-size: 13px;
-    margin-top: 25px;
-    width: 20%;
-    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    width: 30dvh;
+    padding: 15px;
     border-radius: 20px;
     font-weight: 700;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     transition: 0.5s;
 }
 
-main .hero .getstarted:hover{
+main .hero div .getstarted:hover{
     background: var(--cal-to-actions);
 }
 
 
-main .bg-wave img{
-    margin-top: 40%;
-    position: absolute;
-    width: 100%;
+
+
+/* main .features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
 
+.feature{
+    grid-area: feature;
+}
+
+main .features{
+    border: 2px solid blue;
+    margin-top: 5.5%;
+    border: 2px solid blue;
+}
+
+main .feature{
+    width: 100%;
+    border: 2px solid red;
+}
+
+main .feature{
+    width: 100%;
+    border: 2px solid red;
+} */
