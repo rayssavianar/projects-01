@@ -109,4 +109,28 @@ main .hero div .getstarted:hover{
 
 main .features{
     background-color: var(--main);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 60px 10%;
+}
+
+main .features .feature{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+main .features .feature img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main .features .feature h2{
+    margin-bottom: 10px;
+}
+
+main .features .feature p{
+    width: 65%;
+    margin: 0 auto;
 }
