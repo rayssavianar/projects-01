@@ -134,3 +134,52 @@ main .features .feature p{
     width: 65%;
     margin: 0 auto;
 }
+
+/* Productivity */
+
+main .productivity{
+    display: flex;
+    align-items: center;
+    background-color: var(--main);
+}
+
+main .productivity img{
+    margin-left: 150px;
+    margin-top: 5%;
+}
+
+main .productivity .textproduc{
+    margin-left: 140px;
+}
+
+main .productivity .textproduc h2{
+    font-size: 40px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+main .productivity .textproduc p{
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+
+main .productivity .textproduc .seehow{
+    color: var(--cal-to-actions);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+main .productivity .textproduc .seehow::after{
+    content: url(../images/icon-arrow.svg);
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 4px;
+
+} 
+
+main .productivity .textproduc a:hover{
+    color: var(--neutral);
+} 
