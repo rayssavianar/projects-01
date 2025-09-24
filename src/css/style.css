@@ -105,32 +105,19 @@ main .hero div .getstarted:hover{
     background: var(--cal-to-actions);
 }
 
-
-
-
-/* main .features{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-
-.feature{
-    grid-area: feature;
-}
+/* Features */
 
 main .features{
-    border: 2px solid blue;
-    margin-top: 5.5%;
-    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: var(--main);
 }
 
 main .feature{
-    width: 100%;
-    border: 2px solid red;
-}
+    justify-content: center;
+    border: 2px solid blue;
+    align-items: center;
+    width: 20%;
 
-main .feature{
-    width: 100%;
-    border: 2px solid red;
-} */
+}
