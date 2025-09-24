@@ -81,7 +81,7 @@ main .hero div h1{
 
 main .hero div p{
     text-align: center; 
-    width: 25%;
+    width: 30%;
     margin-top: 1%;
     font-size: 16px;
     font-weight: 400;
@@ -108,16 +108,5 @@ main .hero div .getstarted:hover{
 /* Features */
 
 main .features{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
     background-color: var(--main);
-}
-
-main .feature{
-    justify-content: center;
-    border: 2px solid blue;
-    align-items: center;
-    width: 20%;
-
 }
