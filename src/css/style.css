@@ -183,3 +183,59 @@ main .productivity .textproduc .seehow::after{
 main .productivity .textproduc a:hover{
     color: var(--neutral);
 } 
+
+main .testimonials{
+    position: relative;
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+main .testimonials .quotes{
+    display: flex;
+    position: absolute;
+    margin-left: -1320px;
+    z-index: 0;
+}
+
+main .testimonials .part1{
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 10px var(--header);
+    margin: 30px;
+    padding: 20px;
+    width: 22%;
+    background-color: var(--header);
+    border-radius: 8px;
+}
+
+main .testimonials .part1 .description{
+    padding: 10px;
+    line-height: 23px;
+}
+
+main .testimonials .part2{
+    display: flex;
+}
+
+main .testimonials .profile{
+    border-radius: 50%;
+    width: 9%;
+    height: 9%;
+}
+
+main .testimonials .part2 .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+main .testimonials .part2 .info h2{
+    font-size: 15px;
+}
+
+main .testimonials .part2 .info .subsdescription{
+    font-size: 12px;
+}
+
