@@ -239,3 +239,166 @@ main .testimonials .part2 .info .subsdescription{
     font-size: 12px;
 }
 
+main .signup{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: -5%;
+    background-color: var(--header);
+    border-radius: 8px;
+    width: 50%;
+    height: 30%;
+}
+
+main .signup-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+main .signup-content p{
+    font-weight: 300 ;
+    width: 80%;
+    margin-top: 15px;
+}
+
+main .signup form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+main .signup input{
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    outline: none;
+}
+
+main .signup button{
+    padding: 15px 25px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    font-family: var(--text-font);
+    font-weight: 700;
+    color: var(--neutral);
+    cursor: pointer;
+    transition: 0.5s;
+    background: linear-gradient(to right, var(--cal-to-actions), var(--call-to-actions));
+}
+
+main .signup button:hover{
+    background: var(--cal-to-actions);
+}
+
+/* Footer*/
+
+footer{
+    background-color: var(--footer);
+}
+
+footer .logo-footer{
+    margin: 230px 0px 0px 70px;
+    width: 5%;
+}
+
+footer .footer2{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    gap: 10%;
+}
+
+footer .footer2 .location{
+    width: 22%;
+    line-height: 1.5;
+    display: flex;
+    font-weight: 300;
+}
+
+footer .footer2 .location::before{
+    content: url(../images/icon-location.svg);
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 25px;
+}
+
+footer .footer2 .contact .number{
+    font-weight: 300;
+}
+
+footer .footer2 .contact .number::before{
+    content: url(../images/icon-phone.svg);
+    margin-right: 25px;
+}
+
+footer .footer2 .contact .email{
+    margin-top: 23px;
+    font-weight: 300;
+}
+
+footer .footer2 .contact .email::before{
+    content: url(../images/icon-email.svg);
+    margin-right: 25px;
+}
+
+footer .footer2 .about{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin-top: 0px;
+}
+
+footer .footer2 .about .information{
+    font-weight: 300;
+}
+
+footer .footer2 .about .information a:hover{
+    font-weight: 700;
+}
+
+footer .footer2 .about2 .politic{
+    line-height: 2.5;
+    font-weight: 300;
+}
+
+footer .footer2 .about2 .politic a:hover{
+    font-weight: 700;
+}
+
+footer .footer2 .media{
+    width: 9%;
+}
+
+footer .footer2 .media .social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer2 .media .social-media li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: var(--neutral);
+    border: 2px solid var(--neutral);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+footer .footer2 .media .social-media li i:hover{
+    color: var(--cal-to-actions);
+    border: 2px solid var(--cal-to-actions);
+}
+
