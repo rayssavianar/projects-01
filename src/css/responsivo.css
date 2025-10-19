@@ -1,1 +1,211 @@
-dvh lvh svh
+/*Telas maiores*/
+
+@media (min-width: 1870px) {
+
+    main .hero div h1 {
+        width: 25%;
+        font-size: 25px;
+    }
+
+    main .hero div p {
+        font-size: 16px;
+    }
+
+    main .productivity img {
+        margin-left: 150px;
+        margin-top: 5%;
+    }
+
+    main .productivity .textproduc {
+        margin-left: 140px;
+    }
+
+    main .productivity .textproduc h2 {
+        font-size: 40px;
+    }
+
+    main .testimonials .quotes {
+        margin-left: -1320px;
+    }
+
+    main .testimonials .part1 {
+        width: 22%;
+    }
+
+    main .signup {
+        margin-left: 23%;
+        width: 50%;
+        height: 30%;
+    }
+}
+
+/*Mobile*/
+
+@media (max-width: 430px) {
+
+    header nav ul li {
+        margin-right: 7%;
+    }
+
+    main .hero {
+        background: url(../images/bg-wave-mobile.svg) no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    main .hero div img {
+        margin-top: 5%;
+        width: 70%;
+    }
+
+    main .hero div h1 {
+        width: 70%;
+    }
+
+    main .hero div p {
+        width: 70%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    main .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main .features .feature img {
+        width: 20%;
+    }
+
+    main .features .feature h2 {
+        font-size: 20px;
+
+
+    }
+
+    main .features .feature p {
+        width: 80%;
+    }
+
+    main .productivity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .productivity img {
+        width: 70%;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    main .productivity .textproduc {
+        width: 100%;
+    }
+
+    main .productivity .textproduc h2 {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    main .productivity .textproduc p {
+        width: 80%;
+    }
+
+    main .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .testimonials .quotes {
+        margin-top: -700px;
+        margin-left: 0px;
+    }
+
+    main .testimonials .part1 {
+        width: 80%;
+    }
+
+    main .signup {
+        margin-left: 20%;
+        margin-top: -15%;
+        width: 70%;
+        height: 31%;
+    }
+
+    main .signup .signup-content h1 {
+        font-size: 24px;
+    }
+
+    main .signup .signup-content p {
+        font-size: 14px;
+    }
+
+    main .signup form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .signup input {
+        width: 80%;
+    }
+
+    main .signup button {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    footer .logo-footer {
+        margin: 330px 0px 0px 70px;
+        width: 45%;
+    }
+
+    footer .footer2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 70px;
+        gap: 10%;
+    }
+
+    footer .footer2 .location {
+        width: 72%;
+        margin-bottom: 10px;
+    }
+
+    footer .footer2 .contact .email {
+        margin-bottom: 80px;
+    }
+
+    footer .footer2 .about {
+        margin-bottom: 20px;
+    }
+
+    footer .footer2 .about2 .politic {
+        margin-bottom: 80px;
+    }
+
+    footer .footer2 .media .social-media {
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .footer2 .media .social-media li i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        color: var(--neutral);
+        border: 2px solid var(--neutral);
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+
+
+
+
+
+}

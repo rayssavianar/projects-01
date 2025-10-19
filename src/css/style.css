@@ -40,7 +40,7 @@ header nav ul li a{
 header nav ul li{
     display: flex;
     margin-right: 4%;
-    font-size: 10px;
+    font-size: 13px;
     color: white;
 }
 
@@ -67,7 +67,6 @@ main .hero div{
 }
 
 main .hero div img{
-    /* margin-top: 30px; */
     width: 35%;
 }
 
@@ -75,7 +74,7 @@ main .hero div h1{
     text-align: center;
     width: 30%;
     margin-top: 26px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -83,7 +82,7 @@ main .hero div p{
     text-align: center; 
     width: 30%;
     margin-top: 1%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -95,7 +94,7 @@ main .hero div .getstarted{
     margin-bottom: 15%;
     width: 30dvh;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 700;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     transition: 0.5s;
@@ -144,16 +143,17 @@ main .productivity{
 }
 
 main .productivity img{
-    margin-left: 150px;
-    margin-top: 5%;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 2%;
 }
 
 main .productivity .textproduc{
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 main .productivity .textproduc h2{
-    font-size: 40px;
+    font-size: 30px;
     width: 50%;
     margin-bottom: 30px;
 }
@@ -184,6 +184,8 @@ main .productivity .textproduc a:hover{
     color: var(--neutral);
 } 
 
+/*Testimonials*/
+
 main .testimonials{
     position: relative;
     background-color: var(--main);
@@ -195,7 +197,7 @@ main .testimonials{
 main .testimonials .quotes{
     display: flex;
     position: absolute;
-    margin-left: -1320px;
+    margin-left: -1200px;
     z-index: 0;
 }
 
@@ -205,7 +207,7 @@ main .testimonials .part1{
     box-shadow: 5px 5px 10px var(--header);
     margin: 30px;
     padding: 20px;
-    width: 22%;
+    width: 28%;
     background-color: var(--header);
     border-radius: 8px;
 }
@@ -245,12 +247,12 @@ main .signup{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 23%;
+    margin-left: 20%;
     margin-top: -5%;
     background-color: var(--header);
     border-radius: 8px;
-    width: 50%;
-    height: 30%;
+    width: 60%;
+    height: 35%;
 }
 
 main .signup-content{
@@ -356,7 +358,7 @@ footer .footer2 .about{
     display: flex;
     flex-direction: column;
     line-height: 2.0;
-    margin-top: 0px;
+    margin-bottom: 60px;
 }
 
 footer .footer2 .about .information{
