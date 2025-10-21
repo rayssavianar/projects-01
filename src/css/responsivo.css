@@ -155,7 +155,7 @@
     }
 
     footer .logo-footer {
-        margin: 330px 0px 0px 70px;
+        margin: 330px 0px 0px 10px;
         width: 45%;
     }
 
@@ -164,7 +164,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        margin-left: 70px;
+        margin-left: 10px;
         gap: 10%;
     }
 
@@ -182,13 +182,18 @@
     }
 
     footer .footer2 .about2 .politic {
-        margin-bottom: 80px;
+        margin-bottom: 60px;
+    }
+
+    footer .footer2 .media{
+        margin-left: 0px;
+        width: 100%;
     }
 
     footer .footer2 .media .social-media {
-        border: 2px solid red;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        margin-bottom: 12px;
     }
 
     footer .footer2 .media .social-media li i {
